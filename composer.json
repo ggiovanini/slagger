@@ -1,0 +1,23 @@
+{
+    "name": "ggiovanini/slagger",
+    "description": "Facilitando a Geração de Logs no Slack em PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giuliano Giovanini",
+            "email": "gil@uparte.com.br"
+        }
+    ],
+    "require": {
+        "php": "8.*",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slagger\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    }
+}
